@@ -12,9 +12,9 @@
   margin-top: 20px;
   margin-left: 40px;
   display: flex;
-  width: 90px;
+  width: 80px;
   font-size: 12px;
-  padding: 2px;
+  padding: 2px 6px;
   justify-content: center;
   background-color: black;
   color: white;
