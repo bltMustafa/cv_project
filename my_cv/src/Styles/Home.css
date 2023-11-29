@@ -1,0 +1,41 @@
+.cv-container {
+  width: 750px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-bottom: 300px;
+  background-color: white;
+  margin-left: 20px;
+}
+
+.photo-container {
+  width: 160px;
+  height: 160px;
+  margin-right: 10px;
+}
+
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.info-container {
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #b0a695;
+  color: black;
+  text-align: left;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 5px;
+  font-style: italic;
+}

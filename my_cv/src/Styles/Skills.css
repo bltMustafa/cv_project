@@ -1,0 +1,32 @@
+.skills-container {
+  width: 750px;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.skills-header {
+  margin-left: 40px;
+  display: flex;
+  width: 80px;
+  font-size: 12px;
+  padding: 2px;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.skills-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.skills-info > div {
+  width: 35%;
+  margin: 10px;
+}

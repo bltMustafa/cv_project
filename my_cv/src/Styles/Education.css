@@ -1,0 +1,34 @@
+.education-container {
+  width: 750px;
+  height: 200px;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.education-header {
+  margin-top: 20px;
+  margin-left: 40px;
+  display: flex;
+  width: 80px;
+  padding: 2px 10px;
+  font-size: 12px;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.education-info {
+  text-align: justify;
+  font-size: 12px;
+  margin-left: 41px;
+  margin-right: 10px;
+  margin-top: 9px;
+}
+
+.education-info span {
+  color: #b6bbc4;
+}
