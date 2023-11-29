@@ -13,10 +13,8 @@ import Skills from "./Components/Skills";
 import html2canvas from "html2canvas";
 
 import pdfMake from "pdfmake/build/pdfmake";
-import pdfFonts from "pdfmake/build/vfs_fonts";
 
 import { useState } from "react";
-pdfMake.vfs = pdfFonts.pdfMake.vfs;
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -27,7 +25,7 @@ function App() {
   };
 
   const [url, setUrl] = useState(null);
-  pdfMake.vfs = pdfFonts.pdfMake.vfs;
+  pdfMake.vfs = pdfMake.vfs || {};
 
   const createPdf = async () => {
     const content = document.getElementById("root");
